@@ -24,7 +24,7 @@ public class PassageTileManager : MonoBehaviour {
 		}
 	}
 
-	public void PlaceNewTile(int direction) {
+	public GameObject PlaceNewTile(int direction) {
 		int randomMax = floorTileInventory.transform.childCount;
 		int randomTile = Random.Range(0, randomMax);
 		GameObject tileToPlace = this.gameObject;
@@ -55,5 +55,6 @@ public class PassageTileManager : MonoBehaviour {
 		}
 		GameObject newTile = Instantiate(tileToPlace, placePosition, Quaternion.identity) as GameObject;
 		newTile.gameObject.SetActive(true);
+        return newTile;
 	}
 }
