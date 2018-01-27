@@ -186,12 +186,6 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: d5280e0054b85a84a871ae4607711501,
         type: 3}
-    - target: {fileID: 212123888599517640, guid: fa9820a1ffcfd734982e1252af77004e,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: d5280e0054b85a84a871ae4607711501,
-        type: 3}
     - target: {fileID: 114637014882829112, guid: fa9820a1ffcfd734982e1252af77004e,
         type: 2}
       propertyPath: controller
@@ -207,10 +201,7 @@ Prefab:
       propertyPath: m_NormalizedViewPortRect.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4708283793041660, guid: fa9820a1ffcfd734982e1252af77004e, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.42
-      objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 212087745522271602, guid: fa9820a1ffcfd734982e1252af77004e,
         type: 2}
       propertyPath: m_Sprite
@@ -241,6 +232,18 @@ Prefab:
       propertyPath: m_BackGroundColor.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212123888599517640, guid: fa9820a1ffcfd734982e1252af77004e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d5280e0054b85a84a871ae4607711501,
+        type: 3}
+=======
+    - target: {fileID: 4708283793041660, guid: fa9820a1ffcfd734982e1252af77004e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.42
+      objectReference: {fileID: 0}
+>>>>>>> master
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa9820a1ffcfd734982e1252af77004e, type: 2}
   m_IsPrefabParent: 0
